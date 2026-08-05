@@ -51,12 +51,7 @@ A full-stack **GitHub Clone** built with **Node.js**, providing core GitHub-like
 - View Changes
 - Restore Previous Commit
 
-### 🔀 Pull Requests
-- Create Pull Request
-- Review Pull Request
-- Merge Pull Request
-- Close Pull Request
-- Comment on Pull Request
+
 
 ### 🐞 Issues
 - Open Issue

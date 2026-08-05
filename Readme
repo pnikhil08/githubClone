@@ -1,0 +1,385 @@
+# GitHub Clone (Node.js)
+
+A full-stack **GitHub Clone** built with **Node.js**, providing core GitHub-like features such as authentication, repositories, commits, branches, pull requests, issues, and user profiles.
+
+> 🚀 A learning project to understand how GitHub works under the hood using modern web technologies.
+
+---
+
+## 📌 Features
+
+### 👤 Authentication
+- User Registration
+- Login & Logout
+- JWT Authentication
+- Password Hashing (bcrypt)
+- Protected Routes
+
+### 👨‍💻 User Profile
+- Edit Profile
+- Upload Avatar
+- Bio & Social Links
+- Follow / Unfollow Users
+
+### 📁 Repository Management
+- Create Repository
+- Public / Private Repository
+- Delete Repository
+- Rename Repository
+- Repository Description
+- Star Repository
+- Fork Repository
+
+### 🌿 Branch Management
+- Create Branch
+- Delete Branch
+- Switch Branch
+- Merge Branch
+
+### 📝 File Management
+- Upload Files
+- Create New Files
+- Edit Files
+- Delete Files
+- Folder Structure Support
+- Markdown Preview
+
+### 💾 Commit System
+- Create Commit
+- Commit History
+- Commit Message
+- View Changes
+- Restore Previous Commit
+
+### 🔀 Pull Requests
+- Create Pull Request
+- Review Pull Request
+- Merge Pull Request
+- Close Pull Request
+- Comment on Pull Request
+
+### 🐞 Issues
+- Open Issue
+- Close Issue
+- Labels
+- Assign Users
+- Comments
+
+### 💬 Comments
+- Repository Comments
+- Issue Comments
+- Pull Request Comments
+
+### 🔔 Notifications
+- Repository Notifications
+- Pull Request Notifications
+- Issue Notifications
+
+### 🔍 Search
+- Search Users
+- Search Repositories
+- Search Issues
+
+### ❤️ Social Features
+- Follow Users
+- Followers & Following
+- Repository Stars
+- Trending Repositories
+
+---
+
+# 🛠 Tech Stack
+
+## Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- bcrypt
+- Multer
+- Socket.io
+- Nodemailer
+
+## Frontend (Optional)
+
+- React.js
+- Next.js
+- Tailwind CSS
+- Redux Toolkit
+
+---
+
+# 📂 Project Structure
+
+```
+github-clone/
+│
+├── server/
+│   ├── config/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   ├── uploads/
+│   ├── app.js
+│   └── server.js
+│
+├── client/
+│
+├── .env
+├── package.json
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/github-clone.git
+```
+
+```bash
+cd github-clone
+```
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Create Environment File
+
+Create a `.env` file.
+
+```env
+PORT=5000
+
+MONGO_URI=mongodb://localhost:27017/github_clone
+
+JWT_SECRET=your_secret_key
+
+JWT_EXPIRES=7d
+
+CLIENT_URL=http://localhost:3000
+
+EMAIL_USER=example@gmail.com
+
+EMAIL_PASS=password
+```
+
+---
+
+# ▶️ Run Development Server
+
+```bash
+npm run dev
+```
+
+Server starts on
+
+```
+http://localhost:5000
+```
+
+---
+
+# 📡 API Endpoints
+
+## Authentication
+
+```
+POST    /api/auth/register
+POST    /api/auth/login
+GET     /api/auth/profile
+PUT     /api/auth/profile
+```
+
+---
+
+## Repository
+
+```
+POST    /api/repositories
+GET     /api/repositories
+GET     /api/repositories/:id
+PUT     /api/repositories/:id
+DELETE  /api/repositories/:id
+```
+
+---
+
+## Branch
+
+```
+POST    /api/branches
+GET     /api/branches/:repoId
+DELETE  /api/branches/:id
+```
+
+---
+
+## Commit
+
+```
+POST    /api/commits
+GET     /api/commits/:repoId
+```
+
+---
+
+## Pull Requests
+
+```
+POST    /api/pull-requests
+GET     /api/pull-requests/:repoId
+PUT     /api/pull-requests/:id
+```
+
+---
+
+## Issues
+
+```
+POST    /api/issues
+GET     /api/issues/:repoId
+PUT     /api/issues/:id
+DELETE  /api/issues/:id
+```
+
+---
+
+# 🔒 Authentication
+
+Protected routes require a JWT token.
+
+```
+Authorization: Bearer YOUR_TOKEN
+```
+
+---
+
+# 📸 Screenshots
+
+## Home
+
+```
+Add screenshot here
+```
+
+## Repository
+
+```
+Add screenshot here
+```
+
+## Pull Request
+
+```
+Add screenshot here
+```
+
+---
+
+# 🚀 Future Improvements
+
+- Git Diff Viewer
+- Code Review
+- Wiki
+- Git Actions
+- CI/CD
+- Organizations
+- Teams
+- Discussions
+- Repository Insights
+- Git LFS Support
+- Webhooks
+- SSH Authentication
+
+---
+
+# 🧪 Testing
+
+```bash
+npm test
+```
+
+---
+
+# 📦 Deployment
+
+Backend
+
+- Render
+- Railway
+- AWS EC2
+- DigitalOcean
+
+Database
+
+- MongoDB Atlas
+
+Frontend
+
+- Vercel
+- Netlify
+
+---
+
+# 🤝 Contributing
+
+1. Fork the repository
+
+2. Create a feature branch
+
+```bash
+git checkout -b feature/new-feature
+```
+
+3. Commit changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push
+
+```bash
+git push origin feature/new-feature
+```
+
+5. Create a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+---
+
+## 👨‍💻 Author
+
+**Nikhil Pandey**
+
+- GitHub: https://github.com/yourusername
+- LinkedIn: https://linkedin.com/in/yourusername
+
+---
+
+## ❤️ Acknowledgements
+
+Inspired by GitHub and built for educational purposes to understand version control systems and repository management.

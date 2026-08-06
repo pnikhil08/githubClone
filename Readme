@@ -83,26 +83,7 @@ A full-stack **GitHub Clone** built with **Node.js**, providing core GitHub-like
 
 ---
 
-# 🛠 Tech Stack
 
-## Backend
-
-- Node.js
-- Express.js
-- MongoDB
-- Mongoose
-- JWT Authentication
-- bcrypt
-- Multer
-- Socket.io
-- Nodemailer
-
-## Frontend (Optional)
-
-- React.js
-- Next.js
-- Tailwind CSS
-- Redux Toolkit
 
 ---
 
@@ -131,6 +112,7 @@ github-clone/
 ```
 
 ---
+
 
 # ⚙️ Installation
 

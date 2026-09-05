@@ -291,7 +291,6 @@ The application follows common security practices including:
 
 Add screenshots of the project here.
 
-```text
 screenshots/
 ├── login.png
 ├── dashboard.png
@@ -299,7 +298,6 @@ screenshots/
 ├── profile.png
 ├── issues.png
 └── pull-request.png
-```
 
 ## 🚀 Future Improvements
 
@@ -346,7 +344,7 @@ This project is created for educational and development purposes.
 
 ## 👨‍💻 Author
 
-**Nikhil Pandey**
+Nikhil Pandey
 
 If you find this project useful, consider giving it a ⭐ on GitHub.
 
